@@ -37,7 +37,7 @@ const Cssgrid = () => {
 
     const boxStyle = 'text-white  rounded-xl p-2 flex flex-col justify-end items-start'
   return (
-    <div className='grid py-[50px] md:grid-cols-3 auto-rows-[300px] gap-4 my-1 p-[10px] md:p-[0px] '>
+    <div className='grid py-[50px] md:grid-cols-3 auto-rows-[300px] gap-4 my-1  '>
         {
             data.map((item,i)=>(
                 <div key={i} className={`${boxStyle} ${i === 0 ? 'md:col-span-2' :''}  bg-Secondary p-4`}>
