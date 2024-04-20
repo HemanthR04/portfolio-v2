@@ -15,8 +15,8 @@ const Hero = () => {
           particleColor="#FFFFFF"
         />
         </div>
-      <p className="text-4xl md:text-6xl  leading-[39px] md:leading-[69px] text-center bg-clip-text max-w-[337px] md:max-w-[80%] bg-gradient-to-b from-white to-gray-400 text-transparent">
-        a third culture creative bringing ideas into reality, building digital
+      <p className="text-4xl md:text-6xl  leading-[39px] md:leading-[69px] text-center bg-clip-text max-w-[337px] md:max-w-[70%] bg-gradient-to-b from-white to-gray-400 text-transparent">
+        a creative bringing ideas into reality, building digital
         products and documenting it all.
       </p>
     </div>

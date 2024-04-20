@@ -20,7 +20,7 @@ const WorkLinks = () => {
                 <h1 className='text-whiteFA'>Work</h1>
                 <p className='text-gray666 w-[220px] leading-4'>Explore some of my projects</p>
             </div>
-            <Link href={""}>
+            <Link href={"/work"}>
             <div className='workLogo w-[48px] h-[48px] bg-transparent rounded-md border-2 border-gray-400 md:hidden'>
             <Image src={arrow} alt='arrow'/>
             </div>
