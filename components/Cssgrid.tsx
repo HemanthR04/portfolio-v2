@@ -21,13 +21,13 @@ const data = [
     },
     {
       id: 3,
-      name: "Product C",
+      name: "Product D",
       description: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       image: "product_c.jpg"
     },
     {
       id: 3,
-      name: "Product C",
+      name: "Product E",
       description: "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       image: "product_c.jpg"
     },
@@ -37,7 +37,7 @@ const Cssgrid = () => {
 
     const boxStyle = 'text-white  rounded-xl p-2 flex flex-col justify-end items-start'
   return (
-    <div className='grid md:grid-cols-3 auto-rows-[300px] gap-4 my-1 p-[10px] md:p-[0px] '>
+    <div className='grid py-[50px] md:grid-cols-3 auto-rows-[300px] gap-4 my-1 p-[10px] md:p-[0px] '>
         {
             data.map((item,i)=>(
                 <div key={i} className={`${boxStyle} ${i === 0 ? 'md:col-span-2' :''}  bg-Secondary p-4`}>
