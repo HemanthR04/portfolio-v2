@@ -9,7 +9,7 @@ const ContactLinks = () => {
     <>
       <div className="contactLinks">
         <div className="contactLnks flex justify-center gap-4 py-1">
-          <Link href={""}>
+          <Link href={"https://www.instagram.com/hemanthhhhhh/"}>
             <div className="link flex gap-2 px-2 py-1 bg-Secondary items-center rounded-xl">
               <div className="inkLogo">
                 <Image src={InstaLogo} alt="Logo" />
@@ -20,7 +20,7 @@ const ContactLinks = () => {
               <div></div>
             </div>
           </Link>
-          <Link href={""}>
+          <Link href={"https://twitter.com/HemanthR04"}>
             <div className="link flex gap-2 px-2 py-1 bg-Secondary items-center rounded-xl">
               <div className="inkLogo">
                 <Image src={TwitterLogo} alt="Logo" />
@@ -33,7 +33,7 @@ const ContactLinks = () => {
           </Link>
         </div>
         <div className="contactLnks flex justify-center gap-4 py-2">
-          <Link href={""}>
+          <Link href={"https://www.linkedin.com/in/hemanthr04/"}>
             <div className="link flex gap-2 px-2 py-1 bg-Secondary items-center rounded-xl">
               <div className="inkLogo">
                 <Image src={LinkedinLogo} alt="Logo" />

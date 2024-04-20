@@ -61,7 +61,7 @@ const WorkLinks = () => {
             <div className="workLogo w-[48px] h-[48px] bg-transparent rounded-md border-2 border-gray-400 md:hidden">
               <Image src={arrow} alt="arrow" />
             </div>
-            <div className="workLogo w-[98px] h-[30px] text-center bg-transparent rounded-md border-2 border-gray-400 hidden md:block">
+            <div className="workLogo w-[98px] h-[30px] text-center bg-transparent rounded-md border-2 border-gray-600 hidden md:block">
               <span className="text-white text-[12px]">Learn More</span>
             </div>
           </Link>
