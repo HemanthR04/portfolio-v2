@@ -4,7 +4,7 @@ import { SparklesCore } from "./ui/sparkles";
 const Hero = () => {
   return (
     <div className="HeroSection flex justify-center pt-20 pb-10">
-        <div className="w-full absolute inset-0 h-screen">
+        <div className="w-full absolute inset-0 h-[400px]">
         <SparklesCore
           id="tsparticlesfullpage"
           background="transparent"
