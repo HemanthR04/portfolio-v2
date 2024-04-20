@@ -11,8 +11,8 @@ const WorkLinks = () => {
   return (
     <>
     <div className="workLinks flex flex-col justify-center items-center gap-2">
-        <Link href={""}>
-        <div className="work bg-Secondary w-[382px] h-[97px] rounded-md m-1 flex justify-center items-center">
+        
+        <div className="work bg-Secondary w-[382px] h-[97px] md:w-[500px] rounded-md m-1 flex justify-center items-center md:gap-8">
             <div className='workLogo w-[48px] h-[48px] bg-black rounded-md'>
                 <Image src={memoji3} alt='memoji'/>
             </div>
@@ -20,13 +20,18 @@ const WorkLinks = () => {
                 <h1 className='text-whiteFA'>Work</h1>
                 <p className='text-gray666 w-[220px] leading-4'>Explore some of my projects</p>
             </div>
-            <div className='workLogo w-[48px] h-[48px] bg-transparent rounded-md border-2 border-gray666'>
+            <Link href={""}>
+            <div className='workLogo w-[48px] h-[48px] bg-transparent rounded-md border-2 border-gray-400 md:hidden'>
             <Image src={arrow} alt='arrow'/>
             </div>
+            <div className='workLogo w-[98px] h-[30px] text-center bg-transparent rounded-md border-2 border-gray-400 hidden md:block'>
+            <span className='text-white text-[12px]'>Learn More</span>
+            </div>
+            </Link>
         </div>
-        </Link>
-        <Link href={""}>
-        <div className="work bg-Secondary w-[382px] h-[97px] rounded-md m-1 flex justify-center items-center">
+        
+        
+        <div className="work bg-Secondary w-[382px] h-[97px] md:w-[500px] rounded-md m-1 flex justify-center items-center md:gap-8">
             <div className='workLogo w-[48px] h-[48px] bg-black rounded-md'>
             <Image src={memoji2} alt='memoji'/>
             </div>
@@ -34,13 +39,18 @@ const WorkLinks = () => {
                 <h1 className='text-whiteFA'>Play</h1>
                 <p className='text-gray666 w-[220px] leading-4'>Take a look at some of my creations</p>
             </div>
-            <div className='workLogo w-[48px] h-[48px] bg-transparent rounded-md border-2 border-gray666'>
+            <Link href={""}>
+            <div className='workLogo w-[48px] h-[48px] bg-transparent rounded-md border-2 border-gray-400  md:hidden'>
             <Image src={arrow} alt='arrow'/>
             </div>
+            <div className='workLogo w-[98px] h-[30px] text-center bg-transparent rounded-md border-2 border-gray-400 hidden md:block'>
+            <span className='text-white text-[12px]'>Learn More</span>
+            </div>
+            </Link>
         </div>
-        </Link>
-        <Link href={""}>
-        <div className="work bg-Secondary w-[382px] h-[97px] rounded-md m-1 flex justify-center items-center">
+        
+        
+        <div className="work bg-Secondary w-[382px] h-[97px] md:w-[500px] rounded-md m-1 flex justify-center items-center md:gap-8">
             <div className='workLogo w-[48px] h-[48px] bg-black rounded-md'>
             <Image src={memoji4} alt='southcrew Logo'/>
             </div>
@@ -49,13 +59,18 @@ const WorkLinks = () => {
                 <p className='text-gray666 w-[220px] leading-4'>Southcrew , a studio where art 
 meets business</p>
             </div>
-            <div className='workLogo w-[48px] h-[48px] bg-transparent rounded-md border-2 border-gray666'>
-            <Image src={arrow} alt='arrow'/>
+            <Link href={""}>
+            <div className='workLogo w-[48px] h-[48px] bg-transparent rounded-md border-2 border-gray-400 md:hidden'>
+            <Image src={arrow} alt='arrow' className=''/>
             </div>
+            <div className='workLogo w-[98px] h-[30px] text-center bg-transparent rounded-md border-2 border-gray-400 hidden md:block'>
+            <span className='text-white text-[12px]'>Learn More</span>
+            </div>
+            </Link>
         </div>
-        </Link>
-        <Link href={""}>
-        <div className="work bg-Secondary w-[382px] h-[97px] rounded-md m-1 flex justify-center items-center">
+        
+        
+        <div className="work bg-Secondary w-[382px] h-[97px] md:w-[500px] rounded-md m-1 flex justify-center items-center md:gap-8">
             <div className='workLogo w-[48px] h-[48px] bg-black rounded-md'>
             <Image src={memoji1} alt='memoji'/>
             </div>
@@ -63,11 +78,16 @@ meets business</p>
                 <h1 className='text-whiteFA'>Connect with me</h1>
                 <p className='text-gray666 w-[220px] leading-4'>Got a concept? Let's collaborate</p>
             </div>
-            <div className='workLogo w-[48px] h-[48px] bg-transparent rounded-md border-2 border-gray666'>
+            <Link href={""}>
+            <div className='workLogo w-[48px] h-[48px] bg-transparent rounded-md border-2 border-gray-400 md:hidden'>
             <Image src={arrow} alt='arrow'/>
             </div>
+            <div className='workLogo w-[98px] h-[30px] text-center bg-transparent rounded-md border-2 border-gray-400 hidden md:block '>
+            <span className='text-white text-[12px]'>Learn More</span>
+            </div>
+            </Link>
         </div>
-        </Link>
+        
         
     </div>
     </>
