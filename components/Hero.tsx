@@ -4,7 +4,12 @@ import { SparklesCore } from "./ui/sparkles";
 const Hero = () => {
   return (
     <div className="HeroSection flex justify-center pt-20 pb-10">
-        <div className="w-full absolute inset-0 h-[400px]">
+      
+      <p className="text-4xl md:text-6xl  leading-[39px] md:leading-[69px] text-center bg-clip-text max-w-[337px] md:max-w-[70%] bg-gradient-to-b from-white to-gray-400 text-transparent">
+        a creative bringing ideas into reality, building digital
+        products and documenting it all.
+      </p>
+      <div className="w-full absolute inset-0 h-full -z-10">
         <SparklesCore
           id="tsparticlesfullpage"
           background="transparent"
@@ -15,10 +20,6 @@ const Hero = () => {
           particleColor="#FFFFFF"
         />
         </div>
-      <p className="text-4xl md:text-6xl  leading-[39px] md:leading-[69px] text-center bg-clip-text max-w-[337px] md:max-w-[70%] bg-gradient-to-b from-white to-gray-400 text-transparent">
-        a creative bringing ideas into reality, building digital
-        products and documenting it all.
-      </p>
     </div>
   );
 };

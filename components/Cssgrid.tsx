@@ -1,3 +1,5 @@
+'use client'
+import { motion } from 'framer-motion';
 import React from 'react'
 
 const data = [
@@ -33,6 +35,20 @@ const data = [
     },
    
   ];
+
+  const fadeInAnimationVariants = {
+    intital: {
+      opacity: 0,
+      y: 100,
+    },
+    animate: (i:number) => ({
+      opacity: 1,
+      y: 0,
+      transition: {
+        delay: 0.10 * i,
+      },
+    }),
+  };
 const Cssgrid = () => {
 
     const boxStyle = 'text-white  rounded-xl p-2 flex flex-col justify-end items-start'
@@ -40,10 +56,19 @@ const Cssgrid = () => {
     <div className='grid py-[50px] md:grid-cols-3 auto-rows-[300px] gap-4 my-1  '>
         {
             data.map((item,i)=>(
-                <div key={i} className={`${boxStyle} ${i === 0 ? 'md:col-span-2' :''}  bg-Secondary p-4`}>
+                <motion.div
+                variants={fadeInAnimationVariants}
+                initial="intital"
+                animate="animate"
+                whileInView="animate"
+                viewport={{
+                  once: true,
+                }}
+                custom={i}
+                key={i} className={`${boxStyle} ${i === 0 ? 'md:col-span-2' :''}  bg-Secondary p-4`}>
                     <h1 className='text-whiteFA'>{item.name}</h1>
                     <p className='text-gray666 leading-4 text-sm'>{item.description}</p>
-                </div>
+                </motion.div>
             ))
         }
     </div>

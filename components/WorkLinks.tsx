@@ -50,7 +50,7 @@ const fadeInAnimationVariants = {
     opacity: 1,
     y: 0,
     transition: {
-      delay: 0.05 * i,
+      delay: 0.10 * i,
     },
   }),
 };
@@ -58,7 +58,7 @@ const fadeInAnimationVariants = {
 const WorkLinks = () => {
   return (
     <>
-      <div className="workLinks flex flex-col justify-center items-center gap-2">
+      <div className="workLinks flex flex-col justify-center items-center gap-2 ">
         {workData.map((item, i) => (
           <motion.div
             variants={fadeInAnimationVariants}
@@ -71,7 +71,7 @@ const WorkLinks = () => {
             custom={i}
             key={i}
           >
-            <div className="work bg-Secondary w-[382px] h-[97px] md:w-[500px] rounded-md m-1 flex justify-center items-center md:gap-8">
+            <div className="work bg-Secondary w-[382px] h-[97px] md:w-[550px] rounded-md m-1 flex justify-center items-center md:gap-8">
               <div className="workLogo w-[48px] h-[48px] md:w-[70px] md:h-[70px] bg-black rounded-md">
                 <Image src={item.image} alt="memoji" width={100} height={100} />
               </div>
