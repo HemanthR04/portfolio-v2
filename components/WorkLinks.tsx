@@ -68,6 +68,8 @@ const WorkLinks = () => {
             viewport={{
               once: true,
             }}
+
+            whileHover={{scale:1.1}}
             custom={i}
             key={i}
           >
