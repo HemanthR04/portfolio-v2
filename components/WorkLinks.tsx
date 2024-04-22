@@ -34,8 +34,8 @@ const workData = [
   },
   {
     id: 0,
-    heading: "Connect with me",
-    subheading: "Got a concept? Let's collaborate",
+    heading: "About me",
+    subheading: "Designer, Developer, Creative and more",
     image: memoji4,
     link: "/contact",
   },

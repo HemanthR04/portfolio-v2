@@ -1,13 +1,19 @@
+'use client'
 import React from "react";
 import InstaLogo from "../public/instagramLogo.png";
 import TwitterLogo from "../public/twitterLogo.png";
 import LinkedinLogo from "../public/linkedinLogo.png";
 import Image from "next/image";
 import Link from "next/link";
+import { motion } from "framer-motion";
 const ContactLinks = () => {
   return (
     <>
-      <div className="contactLinks">
+      <motion.div 
+      initial={{opacity:0}}
+      animate={{opacity:1}}
+      transition={{delay:0.5}}
+      className="contactLinks">
         <div className="contactLnks flex justify-center gap-4 py-1">
           <Link href={"https://www.instagram.com/hemanthhhhhh/"}>
             <div className="link flex gap-2 px-2 py-1 bg-Secondary items-center rounded-xl">
@@ -45,7 +51,7 @@ const ContactLinks = () => {
             </div>
           </Link>
         </div>
-      </div>
+      </motion.div>
     </>
   );
 };
