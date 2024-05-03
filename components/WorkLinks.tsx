@@ -75,7 +75,7 @@ const WorkLinks = () => {
           >
             <div className="work bg-Secondary w-[382px] h-[97px] md:w-[550px] rounded-md m-1 flex justify-center items-center md:gap-8">
               <div className="workLogo w-[48px] h-[48px] md:w-[70px] md:h-[70px] bg-black rounded-md">
-                <Image src={item.image} alt="memoji" width={100} height={100} />
+                <Image unoptimized src={item.image} alt="memoji" width={100} height={100} />
               </div>
               <div className="workText px-4">
                 <h1 className="text-whiteFA">{item.heading}</h1>
@@ -85,7 +85,7 @@ const WorkLinks = () => {
               </div>
               <Link href={item.link}>
                 <div className="workLogo w-[48px] h-[48px] bg-transparent rounded-md border-2 border-gray-400 md:hidden">
-                  <Image src={arrow} alt="arrow" />
+                  <Image unoptimized src={arrow} alt="arrow" />
                 </div>
                 <div className="workLogo w-[98px] h-[30px] text-center bg-transparent rounded-md border-2 border-gray-600 hidden md:block">
                   <span className="text-white text-[12px]">Learn More</span>

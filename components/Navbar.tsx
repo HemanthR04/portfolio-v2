@@ -8,7 +8,7 @@ const Navbar = () => {
     <>
       <div className="navBar flex justify-center pt-12 pb-4 ">
         <Link href={""}>
-          <Image src={Logo} alt="Logo" />
+          <Image unoptimized src={Logo} alt="Logo" />
         </Link>
       </div>
     </>

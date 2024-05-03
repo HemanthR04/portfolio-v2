@@ -18,7 +18,7 @@ const ContactLinks = () => {
           <Link href={"https://www.instagram.com/hemanthhhhhh/"}>
             <div className="link flex gap-2 px-2 py-1 bg-Secondary items-center rounded-xl">
               <div className="inkLogo">
-                <Image src={InstaLogo} alt="Logo" />
+                <Image unoptimized src={InstaLogo} alt="Logo" />
               </div>
               <div className="linkText text-white text-[16px] pb-1">
                 @hemanth
@@ -29,7 +29,7 @@ const ContactLinks = () => {
           <Link href={"https://twitter.com/HemanthR04"}>
             <div className="link flex gap-2 px-2 py-1 bg-Secondary items-center rounded-xl">
               <div className="inkLogo">
-                <Image src={TwitterLogo} alt="Logo" />
+                <Image unoptimized src={TwitterLogo} alt="Logo" />
               </div>
               <div className="linkText text-white text-[16px] pb-1">
                 @hemanth
@@ -42,7 +42,7 @@ const ContactLinks = () => {
           <Link href={"https://www.linkedin.com/in/hemanthr04/"}>
             <div className="link flex gap-2 px-2 py-1 bg-Secondary items-center rounded-xl">
               <div className="inkLogo">
-                <Image src={LinkedinLogo} alt="Logo" />
+                <Image unoptimized src={LinkedinLogo} alt="Logo" />
               </div>
               <div className="linkText text-white text-[16px] pb-1">
                 @hemanth
